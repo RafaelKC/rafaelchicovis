@@ -11,7 +11,7 @@ export function Contact() {
                 <div className="w-1/3">
                     <form className="flex flex-col md:items-start gap-3 w-full" action="https://api.staticforms.xyz/submit" method="post">
                         <input type="hidden" name="accessKey" value="e8957dc5-2573-4cec-b37b-908cb2dbe489"></input>
-                        <input type="hidden" name="redirectTo" value="https://example.com/contact/success"></input>
+                        <input type="hidden" name="redirectTo" value="http://localhost:3000/thank-you"></input>
 
                         <input className="w-full rounded-xl p-1 border-zinc-900 border-2" type="text" name="name" required placeholder="Nome"></input>
                         <input className="w-full rounded-xl p-1 border-zinc-900 border-2" type="email" name="email" required placeholder="Email"></input>

@@ -1,11 +1,11 @@
+import { Backgroud } from './components/backgroud';
 import { Contact } from './components/contact';
 import { Experiences } from './components/experiences';
 import { Header } from './components/header';
 
 function App() {
   return (
-    <div className="min-h-screen text-zinc-900 p-8 from-gray-900 to-gray-600 bg-gradient-to-r">
-      <div className="bg-slate-100 w-[95%] mx-auto rounded-xl min-h-[900px] shadow-sm border border-black/20">
+    <Backgroud> 
         <div className='flex justify-end'>
           <Header></Header>
         </div>
@@ -23,8 +23,7 @@ function App() {
             <h2 className='font-bold'>by Rafael Chicovis</h2>
           </div>
         </div>
-      </div>
-    </div>
+    </Backgroud> 
   );
 }
 
