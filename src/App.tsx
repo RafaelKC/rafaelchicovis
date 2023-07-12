@@ -18,6 +18,10 @@ function App() {
 
           <Experiences></Experiences>
           <Contact></Contact>
+
+          <div className='w-full flex justify-center mb-4'>
+            <h2 className='font-bold'>by Rafael Chicovis</h2>
+          </div>
         </div>
       </div>
     </div>
