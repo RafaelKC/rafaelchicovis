@@ -11,6 +11,8 @@ import angular from '../assets/angular.png';
 import jenkins from '../assets/jenkins.svg';
 import jira from '../assets/jira.svg';
 
+import { i18n } from '../translates/i18n'
+
 export function Experiences() {
     return (
 <div id="experiences" className='min-h-[900px] max-w-full p-11 flex'>
@@ -18,24 +20,24 @@ export function Experiences() {
       <div className='flex gap-16 md:items-center'>
         <Card
           imgSrc={korp}
-          title='Desenvolvedor Web FullStack'
-          info='13* meses de experiência total'
-          startDate='Jun 2021 - atual'
+          title={i18n.t('cards.korp.title')}
+          info={i18n.t('cards.korp.date')}
+          startDate={i18n.t('cards.korp.obs')}
         ></Card>
         <p className='w-2/5 text-justify'>
-          Lorem mollit cillum pariatur mollit velit deserunt voluptate ea culpa eiusmod magna. Nulla ad nulla Lorem enim deserunt magna eiusmod. Dolor duis ipsum eiusmod pariatur fugiat nisi cillum aliqua mollit cupidatat.
+          {i18n.t('cards.korp.more')}
         </p>
       </div>
 
       <div className='flex gap-16 md:items-center'>
         <p className='w-2/5 text-justify'>
-          Lorem mollit cillum pariatur mollit velit deserunt voluptate ea culpa eiusmod magna. Nulla ad nulla Lorem enim deserunt magna eiusmod. Dolor duis ipsum eiusmod pariatur fugiat nisi cillum aliqua mollit cupidatat.
+          {i18n.t('cards.pucpr.more')}
         </p>
         <Card
           imgSrc={pucpr}
-          title='Engenharia de Software'
-          info='7 semestres para conclusão'
-          startDate='Abril 2023 - atual'
+          title={i18n.t('cards.pucpr.title')}
+          info={i18n.t('cards.pucpr.date')}
+          startDate={i18n.t('cards.pucpr.obs')}
         ></Card>
       </div>
     </div>
@@ -45,35 +47,35 @@ export function Experiences() {
         <SkillBar
           percentage={70}
           imgSrc={typescript}
-          info='Trabalho e estudo'
+          info={i18n.t('languages.workAndStudy')}
         ></SkillBar>
 
         <SkillBar
           percentage={60}
           imgSrc={csharp}
-          info='Trabalho'
+          info={i18n.t('languages.work')}
         ></SkillBar>
 
         <SkillBar
           percentage={55.5}
           imgSrc={angular}
-          info='Trabalho'
+          info={i18n.t('languages.work')}
         ></SkillBar>
 
         <SkillBar
           percentage={44.5}
           imgSrc={docker}
-          info='Trabalho e estudo'
+          info={i18n.t('languages.workAndStudy')}
         ></SkillBar>
 
         <SkillBar
           percentage={30}
           imgSrc={python}
-          info='Estudo'
+          info={i18n.t('languages.study')}
         ></SkillBar>
       
         <div className="pt-10">
-            <span>Outros:</span>
+            <span>{i18n.t('others')}</span>
             <div className="flex gap-2">
                 <div className="w-[70px] flex justify-center md:items-center">
                     <img src={jira} alt="jira" />

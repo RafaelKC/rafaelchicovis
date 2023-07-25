@@ -1,4 +1,5 @@
 import { Backgroud } from "../components/backgroud";
+import { i18n } from '../translates/i18n'
 
 import notFoundImg from '../assets/404.png'
 
@@ -9,7 +10,7 @@ export function NotFound() {
                 <div className="w-2/12">
                     <img src={notFoundImg} alt="NotFound"></img>
                 </div>
-                <h1 className="font-bold text-5xl">Desculpe, página não encontrada.</h1>
+                <h1 className="font-bold text-5xl">{i18n.t('notFound')}.</h1>
             </div>
         </Backgroud>
     )
