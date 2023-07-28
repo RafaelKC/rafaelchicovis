@@ -15,9 +15,9 @@ import { i18n } from '../translates/i18n'
 
 export function Experiences() {
     return (
-<div id="experiences" className='min-h-[900px] max-w-full p-11 flex'>
-    <div className="w-1/2">
-      <div className='flex gap-16 md:items-center'>
+<div id="experiences" className='min-h-[900px] max-w-full p-11 flex flex-col md:flex-row'>
+    <div className="md:w-1/2">
+      <div className='flex flex-col md:flex-row sm:gap-5 lg:gap-16 items-center'>
         <Card
           imgSrc={korp}
           title={i18n.t('cards.korp.title')}
@@ -29,7 +29,7 @@ export function Experiences() {
         </p>
       </div>
 
-      <div className='flex gap-16 md:items-center'>
+      <div className='flex mt-6 lg:mt-3 flex-col-reverse sm:flex-row md:gap-5 lg:gap-16 items-center'>
         <p className='w-2/5 text-justify'>
           {i18n.t('cards.pucpr.more')}
         </p>
@@ -42,8 +42,8 @@ export function Experiences() {
       </div>
     </div>
 
-    <div className='w-1/2 p-12 flex flex-col justify-center'>
-      <div className='flex flex-col gap-11'>
+    <div className='md:w-1/2 pt-12 md:pt-0 md:p-12 flex flex-col justify-center'>
+      <div className='flex flex-col gap-5 md:gap-11'>
         <SkillBar
           percentage={70}
           imgSrc={typescript}
@@ -74,14 +74,14 @@ export function Experiences() {
           info={i18n.t('languages.study')}
         ></SkillBar>
       
-        <div className="pt-10">
+        <div className="pt-5 md:pt-10">
             <span>{i18n.t('others')}</span>
             <div className="flex gap-2">
-                <div className="w-[70px] flex justify-center md:items-center">
+                <div className="w-[70px] flex justify-center items-center">
                     <img src={jira} alt="jira" />
                 </div>
                 <div>
-                    <img className="w-[70px] flex justify-center md:items-center" src={jenkins} alt="jenkins" />
+                    <img className="w-[70px] flex justify-center items-center" src={jenkins} alt="jenkins" />
                 </div>
             </div>
         </div>

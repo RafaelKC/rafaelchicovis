@@ -13,8 +13,8 @@ function App() {
         </div>
 
         <div>
-          <div id="home" className='min-h-[1000px] flex flex-col justify-center p-11'>
-            <h1 className='text-8xl font-bold'>{i18n.t('title')}</h1>
+          <div id="home" className='min-h-[800px] md:min-h-[450px] lg:min-h-[1000px] flex flex-col justify-center p-11'>
+            <h1 className='text-5xl lg:text-8xl font-bold'>{i18n.t('title')}</h1>
             <span className='text-2xl'>{i18n.t('subtitle')}</span>
           </div>
 
