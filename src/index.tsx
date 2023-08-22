@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     errorElement: <NotFound />
   },
   {
-    path: 'rafaelchicovis',
+    path: 'rafaelchicovis/',
     element: <App />,
     errorElement: <NotFound />
   }
