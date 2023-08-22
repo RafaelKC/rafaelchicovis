@@ -1,5 +1,3 @@
-import { title } from "process";
-
 export function Card(props : {imgSrc: string, title: string, startDate: string, info: string}) {
     return (
         <div className="from-gray-600 to-gray-500 bg-gradient-to-l border rounded-xl w-full md:w-4/5 lg:w-2/5 h-96 flex justify-center">
