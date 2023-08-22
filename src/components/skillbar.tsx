@@ -6,7 +6,7 @@ export function SkillBar(props: { imgSrc: string, percentage: number, info: stri
             </div>
             <div className="w-full">
                 <div className="bg-zinc-400 border-zinc-950 border-4 w-full h-6">
-                    <div className={"bg-gradient-to-r from-gray-800 to-gray-500 h-4 w-["+props.percentage.toFixed()+"%]"}></div>
+                    <div style={{ width: props.percentage + '%' }} className={"bg-gradient-to-r from-gray-800 to-gray-500 h-4"}></div>
                 </div>
                 <span>{props.info}</span>
             </div>
