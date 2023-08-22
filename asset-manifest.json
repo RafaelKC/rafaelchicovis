@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rafaelchicovis/static/css/main.2df839a3.css",
+    "main.js": "/rafaelchicovis/static/js/main.d6657467.js",
+    "static/js/787.4f027f00.chunk.js": "/rafaelchicovis/static/js/787.4f027f00.chunk.js",
+    "static/media/korp.png": "/rafaelchicovis/static/media/korp.e66c0f39ecb1698d7a62.png",
+    "static/media/pucpr.jpeg": "/rafaelchicovis/static/media/pucpr.afde3bc0195d061d5686.jpeg",
+    "static/media/404.png": "/rafaelchicovis/static/media/404.d18629049045b84d0f99.png",
+    "static/media/jenkins.svg": "/rafaelchicovis/static/media/jenkins.67e41840981aa33fafbfb661f6e869c2.svg",
+    "static/media/docker.svg": "/rafaelchicovis/static/media/docker.012c87133b880ddb7bf6085baa84b00f.svg",
+    "static/media/csharp.svg": "/rafaelchicovis/static/media/csharp.ad2ed3780f378cb4a18cc847d16d393b.svg",
+    "static/media/jira.svg": "/rafaelchicovis/static/media/jira.7311f4665eab865d151a059ffc873baf.svg",
+    "static/media/python.svg": "/rafaelchicovis/static/media/python.58d5a0a7b305a106917669f9abcc4f3d.svg",
+    "index.html": "/rafaelchicovis/index.html",
+    "static/media/linkdin.svg": "/rafaelchicovis/static/media/linkdin.ecadf8ce2ab9f31dd0278e1b5c8cc7ca.svg",
+    "static/media/typescript.svg": "/rafaelchicovis/static/media/typescript.ced98752566ac4b3a366e8e41677cd67.svg",
+    "main.2df839a3.css.map": "/rafaelchicovis/static/css/main.2df839a3.css.map",
+    "main.d6657467.js.map": "/rafaelchicovis/static/js/main.d6657467.js.map",
+    "787.4f027f00.chunk.js.map": "/rafaelchicovis/static/js/787.4f027f00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2df839a3.css",
+    "static/js/main.d6657467.js"
+  ]
+}
