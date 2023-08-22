@@ -14,13 +14,13 @@ export function Contact() {
         <div id="contact" className='min-h-[800px] md:min-h-[450px] lg:min-h-[900px] flex flex-col justify-center items-center'>
             <div className="flex flex-col items-center gap-8 w-full">
                 <h1 className="text-4xl font-bold">{i18n.t('contacts.title')}</h1>
-                <div className="w-11/12 lg:w-1/3">
+                <div className="w-full flex justify-center p-3">
 
                      {sended ? 
-                        <h1 className="font-bold text-xl lg:text-4xl">{i18n.t('contacts.thankYou')}</h1>
+                        <h1 className="font-bold text-xl lg:text-4xl w-f">{i18n.t('contacts.thankYou')}</h1>
                      :
 
-                    <form className="flex flex-col items-start gap-3 w-full" action="https://api.staticforms.xyz/submit" method="post">
+                    <form className="flex flex-col items-start gap-3 w-11/12 lg:w-1/3" action="https://api.staticforms.xyz/submit" method="post">
                         <input type="hidden" name="accessKey" value="e8957dc5-2573-4cec-b37b-908cb2dbe489"></input>
 
                         <input className="w-full rounded-xl p-1 border-zinc-900 border-2" type="text" name="name" required placeholder={i18n.t('contacts.name')}></input>
