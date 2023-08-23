@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rafaelchicovis/static/css/main.494b257b.css",
-    "main.js": "/rafaelchicovis/static/js/main.d0a9ff86.js",
+    "main.css": "/rafaelchicovis/static/css/main.bf51ddac.css",
+    "main.js": "/rafaelchicovis/static/js/main.8b4cf9cb.js",
     "static/js/787.4f027f00.chunk.js": "/rafaelchicovis/static/js/787.4f027f00.chunk.js",
     "static/media/korp.png": "/rafaelchicovis/static/media/korp.e66c0f39ecb1698d7a62.png",
     "static/media/pucpr.jpeg": "/rafaelchicovis/static/media/pucpr.afde3bc0195d061d5686.jpeg",
@@ -14,12 +14,12 @@
     "index.html": "/rafaelchicovis/index.html",
     "static/media/linkdin.svg": "/rafaelchicovis/static/media/linkdin.ecadf8ce2ab9f31dd0278e1b5c8cc7ca.svg",
     "static/media/typescript.svg": "/rafaelchicovis/static/media/typescript.ced98752566ac4b3a366e8e41677cd67.svg",
-    "main.494b257b.css.map": "/rafaelchicovis/static/css/main.494b257b.css.map",
-    "main.d0a9ff86.js.map": "/rafaelchicovis/static/js/main.d0a9ff86.js.map",
+    "main.bf51ddac.css.map": "/rafaelchicovis/static/css/main.bf51ddac.css.map",
+    "main.8b4cf9cb.js.map": "/rafaelchicovis/static/js/main.8b4cf9cb.js.map",
     "787.4f027f00.chunk.js.map": "/rafaelchicovis/static/js/787.4f027f00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.494b257b.css",
-    "static/js/main.d0a9ff86.js"
+    "static/css/main.bf51ddac.css",
+    "static/js/main.8b4cf9cb.js"
   ]
 }
