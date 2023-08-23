@@ -24,13 +24,13 @@ export function Experiences() {
           info={i18n.t('cards.korp.date')}
           startDate={i18n.t('cards.korp.obs')}
         ></Card>
-        <p className='w-2/5 text-justify'>
+        <p className='sm:w-full md:w-4/5 lg:w-2/5 text-justify'>
           {i18n.t('cards.korp.more')}
         </p>
       </div>
 
-      <div className='flex mt-6 lg:mt-3 flex-col-reverse sm:flex-row md:gap-5 lg:gap-16 items-center'>
-        <p className='w-2/5 text-justify'>
+      <div className='flex mt-6 lg:mt-3 flex-col-reverse lg:flex-row md:gap-5 lg:gap-16 items-center'>
+        <p className='sm:w-full md:w-4/5 lg:w-2/5 text-justify'>
           {i18n.t('cards.pucpr.more')}
         </p>
         <Card
