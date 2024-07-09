@@ -22,16 +22,6 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <NotFound />
   },
-  {
-    path: 'rafaelchicovis/thank-you/',
-    element: <ThankYou />,
-    errorElement: <NotFound />
-  },
-  {
-    path: 'rafaelchicovis/',
-    element: <App />,
-    errorElement: <NotFound />
-  }
 ]);
 
 root.render(
